@@ -3,7 +3,7 @@ name: Auto Merge Member Branches # ตั้งชื่ออื่นได้
 on:
   schedule:
     - cron: '*/10 * * * *'
-  workflow_dispatch:Develop Website ของตนเอง
+  workflow_dispatch:
 
 jobs:
   merge-branches:
